@@ -1,0 +1,27 @@
+{
+  "name": "rally-rank-email-verify",
+  "version": "1.0.0",
+  "description": "Email verification service for Rally Rank tennis app",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-appwrite": "^12.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "helmet": "^7.1.0",
+    "ejs": "^3.1.9"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "jest": "^29.7.0"
+  },
+  "keywords": ["email", "verification", "appwrite", "tennis"],
+  "author": "Your Name",
+  "license": "MIT"
+} 
